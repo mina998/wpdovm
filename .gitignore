@@ -1,0 +1,7 @@
+!.gitignore
+.idea
+.DS_Store
+nohup.out
+docker-compose.yml.*
+website/
+.env
