@@ -23,6 +23,7 @@ apt update
 echoSB "Install Necessary Packages."
 apt install -y curl gnupg lsb-release unzip gawk zstd pv bc tzdata
 
+
 # 创建软链接
 rm -rf /usr/local/bin/vhost.sh
 chmod +x $DNMP_DIR/vhost.sh

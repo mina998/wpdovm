@@ -16,6 +16,8 @@ services:
       - ./website/logs/nginx:/usr/local/nginx/logs
       # nginx vhosts config
       - ./website/http.d:/usr/local/nginx/conf.d
+      # ssl
+      - ./ssl:/ssl
       # php config
       - ./php83/php.ini:/usr/local/etc/php/php.ini:ro
       - ./php83/www.conf:/usr/local/etc/php-fpm.conf:ro
